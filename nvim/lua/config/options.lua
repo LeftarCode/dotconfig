@@ -2,6 +2,10 @@
 vim.g.loaded_netrwPlugin = 1
 vim.g.loaded_netrw = 1
 
+-- Leader
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
 -- Leader timeout
 vim.opt.ttimeout = true
 vim.opt.ttimeoutlen = 10
@@ -35,3 +39,6 @@ vim.opt.shortmess:append("sI")
 
 -- Column
 vim.opt.colorcolumn = "80"
+
+-- Theme
+vim.cmd.colorscheme "catppuccin-nvim"

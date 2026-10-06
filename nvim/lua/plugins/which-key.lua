@@ -1,8 +1,5 @@
-return {
-  "folke/which-key.nvim",
-  lazy = false,
-  config = function()
-    require("which-key").setup {}
-  end
-}
+vim.pack.add({
+  "https://github.com/folke/which-key.nvim",
+})
 
+require("which-key").setup()
